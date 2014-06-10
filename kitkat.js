@@ -11,7 +11,7 @@ var Kitkat = (function (win, kk, undefined) {
 
     if (window._cordovaNative && getAndroidVersion() >= 4.4) {
         // We have to use this ugly way to get cordova working
-        document.write('<script src="/js/cordova.js" type="text/javascript"></script>');
+        //document.write('<script src="/js/cordova.js" type="text/javascript"></script>');
         injected = true;
     }
     kk.injected = injected; //export injected
